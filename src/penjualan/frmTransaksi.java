@@ -419,13 +419,13 @@ private void kosong_table(){
 
         tblBrg.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null}
+                {null, null, null, null, null, null},
+                {null, null, null, null, null, null},
+                {null, null, null, null, null, null},
+                {null, null, null, null, null, null}
             },
             new String [] {
-                "Kd Barang", "Nama Barang", "Harga Barang", "Jumlah", "Total"
+                "Kd Barang", "Nama Barang", "Harga Barang", "Jumlah", "Total", "Pajak"
             }
         ));
         jScrollPane1.setViewportView(tblBrg);
